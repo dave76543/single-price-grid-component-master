@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  .vorlage {
+    width: 100vw;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+  }
+
+  .card {
+    
+    transition: 0.3s;
+    width: 310px;
+   
+  }
+
+  .container {
+    padding-top: 0px;
+  }
+
+ .joina{
+
+ background-color: white;
+ padding-left: 20px;
+ border-radius: 8px 8px 0px 0px;
+ line-height: 27px;
+ padding-bottom: 28px;
+ font-size: 14px;
+ padding-right: 20px;
+ }
+
+  .sus{
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    line-height: 30px;
+    padding-bottom: 0;
+  }
+  
+  .big{
+    font-size: 29px;
+    color: white;
+  }
+
+  .why{
+    background-color: #4abebd;
+    padding-left: 20px;
+    color: white;
+    border-radius: 0px 0px 8px 8px;
+    color: hsl(204, 43%, 93%);
+    padding-right: 60px;
+    font-size: 14px;
+    line-height: 6px;
+    height: 270px;
+  }
+  
+  .pad{
+    padding-left: 20px;
+
+  }
+
+  .cen{
+    text-align: center;
+  }
+
+button{
+  background-color: hsl(71, 73%, 54%);
+  border: white;
+  color: white;
+  width: 270px;
+  border-radius: 5px;
+  height: 45px;
+  font-family: "Karla", sans-serif;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 3px grey;
+  font-size: 16px;
+  
+  display: block;
+  line-height: 1px;
+  transition-duration: 0.4s;
+}
+button:hover{
+  background-color: green;
+
+}
+
+  body {
+    color: hsl(218, 22%, 67%);
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+
+  }
+
+h1,
+h2,
+h3,
+h4{
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: larger;
+  line-height: 10px;
+}
+h1{ font-size: 23px;
+    color: hsl(179, 62%, 43%)}
+
+h2{ color:hsl(71, 73%, 54%);
+    font-size: 17px; 
+    line-height: 20px;  
+}
+h3{
+  color: white;
+  padding-top: 0;
+}
